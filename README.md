@@ -4,7 +4,7 @@ This is a basic benchmark bettween 2 frameworks :
 
    **1_ [Akka Stream](https://github.com/akka/akka) :** A reactive, distributed, and resilient message-driven framework with Non Blocking BackPressure control
                         
-   **2_ [FlowControl](https://github.com/nassimus26/FlowControl) :** A multithread framework with Blocking BackPressure control
+   **2_ [FlowControl](https://github.com/nassimus26/FlowControl) :** A tiny multithread framework with Blocking BackPressure control
                 
 The test is about counting the number of a given word in a File
                 
