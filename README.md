@@ -4,7 +4,7 @@ This is a basic benchmark bettween 2 frameworks :
 
    **1_ Akka Stream :** A reactive framework with Non Blocking BackPressure control
                         
-   **2_ [FlowControl](https://github.com/nassimus26/FlowControl) :** A multithread with Blocking BackPressure control
+   **2_ [FlowControl](https://github.com/nassimus26/FlowControl) :** A multithread framework with Blocking BackPressure control
                 
 ## Expected Result
 
