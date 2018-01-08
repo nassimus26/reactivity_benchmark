@@ -6,11 +6,11 @@ import java.util.UUID;
 import java.util.concurrent.ExecutionException;
 
 import akka.actor.ActorSystem;
-import org.reactivity.AkkaCountWordInFile;
-import org.reactivity.data.FileTestGenerator;
 import org.junit.Assert;
 import org.junit.BeforeClass;
 import org.junit.Test;
+import org.reactivity.AkkaCountWordInFile;
+import org.reactivity.data.FileTestGenerator;
 
 
 public class AkkaCountWordInFileUnitTest {
