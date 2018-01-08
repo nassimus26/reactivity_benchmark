@@ -1,6 +1,6 @@
-# reactivity benchmark
+# Reactivity Benchmark
 
-This is a benchmark bettween 2 frameworks : 
+This is a basic benchmark bettween 2 frameworks : 
 
    **1_ Akka Stream :** A reactive framework with Non Blocking BackPressure control
                         
