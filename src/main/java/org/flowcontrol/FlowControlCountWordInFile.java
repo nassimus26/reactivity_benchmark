@@ -38,7 +38,7 @@ public class FlowControlCountWordInFile {
 
                     @Override
                     public void handleException(Exception e) {
-
+                        log.error(e);
                     }
                 };
         Files.newBufferedReader(file.toPath()).lines().forEach(line -> {
