@@ -25,7 +25,7 @@ import org.reactivity.AkkaCountWordInFile;
 import org.reactivity.data.FileTestGenerator;
 
 
-public class CountWordInFileBenchmark {
+public class CountWordInFileBK {
     private static final ActorSystem actorSystem = ActorSystem.create();
     private static int nWord = FileTestGenerator.DefaultWordCount;
     private static String wordToCount = UUID.randomUUID().toString();
