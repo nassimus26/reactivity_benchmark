@@ -72,7 +72,7 @@ public class CountWordInFileBK {
 
     private Options initBench() {
         return new OptionsBuilder()
-                .include(org.openjdk.jmh.annotations.Benchmark.class.getSimpleName() + ".*")
+                .include(CountWordInFileBK.class.getSimpleName() + ".*")
                 .mode(Mode.AverageTime)
                 .verbosity(VerboseMode.NORMAL)
                 .timeUnit(TimeUnit.MILLISECONDS)
