@@ -10,6 +10,11 @@ import lombok.extern.log4j.Log4j;
 import org.nassimus.thread.BufferedBatchCallable;
 import org.nassimus.thread.BufferedBatchFlowControlExecutor;
 
+/*
+* Implementation of count in File using FlowControl framework
+*
+* @author : Nassim MOUALEK
+* */
 @Log4j
 public class FlowControlCountWordInFile {
     private AtomicLong wordCount = new AtomicLong();

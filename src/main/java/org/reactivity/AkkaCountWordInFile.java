@@ -21,6 +21,11 @@ import akka.util.ByteString;
 import lombok.extern.log4j.Log4j;
 
 @Log4j
+/*
+* Implementation of count in File using Akka Stream framework
+*
+* @author : Nassim MOUALEK
+* */
 public class AkkaCountWordInFile {
     private final ActorSystem actorSystem;
 

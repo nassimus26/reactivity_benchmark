@@ -24,7 +24,11 @@ import org.openjdk.jmh.runner.options.VerboseMode;
 import org.reactivity.AkkaCountWordInFile;
 import org.reactivity.data.FileTestGenerator;
 
-
+/*
+* Benchmark of count in File using FlowControl vs Akka Framework
+*
+* @author : Nassim MOUALEK
+* */
 public class CountWordInFileBK {
     private static final ActorSystem actorSystem = ActorSystem.create();
     private static int nWord = FileTestGenerator.DefaultWordCount;
