@@ -15,9 +15,9 @@ It counts the number of a given word in a File
 |CountWordInFileBK.count_using_Akka_Stream_Library                               |avgt   |6   |294,248 |57,009 |ms/op
 |CountWordInFileBK.count_using_MultiThread_With_A_Blocking_BackPressure_Library  |avgt   |6   |62,262  |12,478 |ms/op
 
-This basic benchmark demonstrates a gain of performance of **79%** using a simple MultiThread Library 
+This basic benchmark demonstrates a gain of performance of **492.59%** using a simple MultiThread Library 
 
-**Gain of 79%** = (1-(62,262/294,248))*100 or we could say that [FlowControl](https://github.com/nassimus26/FlowControl) is 4.7 faster than **Akka Stream**
+**Gain of 492.59%** = (294,248/62,262)*100
 
 **NB :** This dosn't changes the fact that Akka Stream Library is the most powerfull reactive library that supports many interesting features :
 
