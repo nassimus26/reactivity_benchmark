@@ -16,3 +16,10 @@ This is a basic benchmark bettween 2 frameworks :
 This basic benchmark demonstrates a gain of performance of **79%** using a simple MultiThread Library 
 
 **Gain of 79%** = (1-(62,262/294,248))*100
+
+**NB :** This dosn't change the fact that Akka Stream Library is the most powerfull reactive library that supports many interessting features :
+
+        1_ Non Blocking BackPresuure
+        2_ Resiliency  
+        3_ Distriuted
+        ...
