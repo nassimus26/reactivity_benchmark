@@ -14,9 +14,9 @@ public class FileTestGenerator {
         try (FileOutputStream fos = new FileOutputStream(file) ) {
             for ( int n=0; n<nRepeat*3; n++ ) {
                 if (n % 3 == 0)
-                    fos.write((wordToRepeat + "\n").getBytes());
+                    fos.write((UUID.randomUUID().toString()+" "+wordToRepeat + "\n").getBytes());
                 else
-                    fos.write((UUID.randomUUID().toString() + "\n").getBytes());
+                    fos.write((UUID.randomUUID().toString()+" "+UUID.randomUUID().toString() + "\n").getBytes());
             }
         }
         return file;
