@@ -25,7 +25,7 @@ import org.reactivity.AkkaCountWordInFile;
 import org.reactivity.data.FileTestGenerator;
 
 /*
-* Benchmark of count in File using FlowControl vs Akka Framework
+* Benchmark of count word in File using FlowControl vs Akka Framework
 *
 * @author : Nassim MOUALEK
 * */
