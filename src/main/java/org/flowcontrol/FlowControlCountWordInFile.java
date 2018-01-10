@@ -35,7 +35,7 @@ public class FlowControlCountWordInFile {
         AtomicBoolean submitEnd = new AtomicBoolean();
         BufferedBatchFlowControlExecutor<String> bufferedBatchFlowControlExecutor =
                 new BufferedBatchFlowControlExecutor<String>(
-                        countWordsCallable, 50, 4, 50, "CountWordInFile" ) {
+                        countWordsCallable, 100, 4, 50, "CountWordInFile" ) {
                     @Override
                     public boolean isSubmitsEnds() {
                         return submitEnd.get();
