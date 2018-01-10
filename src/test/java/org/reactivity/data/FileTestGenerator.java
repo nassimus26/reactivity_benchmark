@@ -7,9 +7,9 @@ import java.nio.file.Paths;
 import java.util.UUID;
 
 public class FileTestGenerator {
-    public static int DefaultWordCount = 100_000;
+    public static long DefaultWordCount = 1_000_000;
 
-    public static File generateTestFile(String fileName, String wordToRepeat, int nRepeat) throws IOException {
+    public static File generateTestFile(String fileName, String wordToRepeat, long nRepeat) throws IOException {
         File file = Paths.get("src/test/resources/"+fileName).toFile();
         try (FileOutputStream fos = new FileOutputStream(file) ) {
             for ( int n=0; n<nRepeat*3; n++ ) {

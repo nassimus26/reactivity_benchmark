@@ -12,7 +12,7 @@ import org.reactivity.data.FileTestGenerator;
 
 
 public class FlowControlCountWordInFileUnitTest {
-    private static int nWord = FileTestGenerator.DefaultWordCount;
+    private static long nWord = FileTestGenerator.DefaultWordCount;
     private static String wordToCount = UUID.randomUUID().toString();
     private static File fileToTest;
 

@@ -15,7 +15,7 @@ import org.reactivity.data.FileTestGenerator;
 
 public class AkkaCountWordInFileUnitTest {
     private static final ActorSystem actorSystem = ActorSystem.create();
-    private static int nWord = FileTestGenerator.DefaultWordCount;
+    private static long nWord = FileTestGenerator.DefaultWordCount;
     private static String wordToCount = UUID.randomUUID().toString();
     private static File fileToTest;
 
