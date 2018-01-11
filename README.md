@@ -15,7 +15,7 @@ The test is about counting the number of a given word in a File
 |CountWordInFileBK.count_using_Akka_Stream_Library                               |avgt   |6   |2517,248 |57,009 |ms/op
 |CountWordInFileBK.count_using_MultiThread_With_A_Blocking_BackPressure_Library  |avgt   |6   |495,262  |12,478 |ms/op
 
-This basic benchmark demonstrates a gain of performance of **500%%** using a tiny MultiThread Library 
+This basic benchmark demonstrates a gain of performance of **500%** using a tiny MultiThread Library 
 
 **Gain of 500%%** = (2517,248/495,262)*100
 
