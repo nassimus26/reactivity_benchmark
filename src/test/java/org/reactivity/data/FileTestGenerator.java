@@ -7,7 +7,7 @@ import java.nio.file.Paths;
 import java.util.UUID;
 
 public class FileTestGenerator {
-    public static long DefaultWordCount = 1_000_000;
+    public static long DefaultWordCount = 800_000;
 
     public static File generateTestFile(String fileName, String wordToRepeat, long nRepeat) throws IOException {
         File file = Paths.get("src/test/resources/"+fileName).toFile();
