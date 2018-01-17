@@ -44,7 +44,7 @@ public class AkkaCountWordInFile {
     private final Flow<List<ByteString>, Long, NotUsed> countWord =
             Flow.<List<ByteString>>create()
                     .buffer(50, OverflowStrategy.backpressure()) // the input stream must wait for the processing
-                    .mapAsyncUnordered(4, row ->
+                    .mapAsyncUnordered(8, row ->
                             CompletableFuture.supplyAsync(() ->
                                     (Long) row.stream()
                                             .map(ByteString::utf8String)
