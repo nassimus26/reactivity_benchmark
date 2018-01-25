@@ -17,7 +17,7 @@ The test is about counting the number of a given word in a File
 
 This basic benchmark demonstrates a gain of performance of **500%** using a tiny MultiThread Library 
 
-**Gain of 500%%** = (2517,248/495,262)*100
+**Gain of 500%** = (2517,248/495,262)*100
 
 **NB :** This dosn't changes the fact that Akka Stream Library is the most powerfull reactive library that supports many interesting features :
 
